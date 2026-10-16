@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "fluid": true,
+  "rewrites": [
+    {
+      "source": "/api/:route*",
+      "destination": "/api?route=:route*"
+    }
+  ]
+}
+
